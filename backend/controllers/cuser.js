@@ -168,4 +168,4 @@ const isUserExistWhenSignUp = async (req, res) => {
 
 // export default cuser;
 
-export default { logInPost, signUpPost, isUserExistWhenSignUp, getUserProfile, updateUserProfile };
+export { logInPost, signUpPost, isUserExistWhenSignUp, getUserProfile, updateUserProfile };
