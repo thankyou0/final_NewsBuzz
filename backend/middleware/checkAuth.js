@@ -12,6 +12,7 @@ dotenv.config();
 
 const checkAuth =  (req, res, next) => {
 
+  
 
   const authHeader = req.headers['authorization'];
 
