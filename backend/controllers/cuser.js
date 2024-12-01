@@ -7,7 +7,7 @@
 // const express = require("express");
 
 import usermodel from "../models/muser.js";
-import quickSearch_model from "../models/mquicksearch.js";
+import {quickSearch_model} from "../models/mquicksearch.js";
 import verificationcodemodel from "../models/mverificationcode.js";
 import jsonwebtoken from "jsonwebtoken";
 import CryptoJS from 'crypto-js';
