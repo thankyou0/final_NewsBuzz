@@ -6,9 +6,9 @@
 // const dotenv = require('dotenv');
 // const express = require("express");
 
-import {usermodel} from "../models/muser.js";
-import {quickSearch_model} from "../models/mquicksearch.js";
-import {verificationcodemodel} from "../models/mverificationcode.js";
+import usermodel from "../models/muser.js";
+import quickSearch_model from "../models/mquicksearch.js";
+import verificationcodemodel from "../models/mverificationcode.js";
 import jsonwebtoken from "jsonwebtoken";
 import CryptoJS from 'crypto-js';
 import dotenv from 'dotenv';
@@ -168,6 +168,4 @@ const isUserExistWhenSignUp = async (req, res) => {
 
 // export default cuser;
 
-// export default { logInPost, signUpPost, isUserExistWhenSignUp, getUserProfile, updateUserProfile };
-
-export { logInPost, signUpPost, isUserExistWhenSignUp, getUserProfile, updateUserProfile };
+export default { logInPost, signUpPost, isUserExistWhenSignUp, getUserProfile, updateUserProfile };
